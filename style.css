@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(126, 126, 224);
+  display: grid;
+  place-content: center;
+}
+
+main {
+  max-width: min-content;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding-bottom: 30px;
+}
+.header-img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.txt-container {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.txt-container h1 {
+  font-size: 1.8rem;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.txt-container p {
+  font-size: 0.8rem;
+  margin-bottom: 1.3em;
+  color: rgb(143, 140, 140);
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  max-width: 70%;
+  margin: 0 auto;
+  background-color: rgba(234, 232, 228, 0.629);
+  gap: 5px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.plan h2 {
+  font-size: 1rem;
+  padding-bottom: 3px;
+}
+
+.plan p {
+  font-size: 0.8rem;
+  color: rgb(143, 140, 140);
+}
+.plan input {
+  background-color: transparent;
+  border: none;
+  color: rgb(48, 48, 189);
+  text-decoration: underline;
+  margin-left: auto;
+}
+
+.plan input:hover {
+  color: rgb(89, 89, 191);
+}
+
+.buttons {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons .btn {
+  width: 70%;
+  padding: 13px 0;
+  background-color: rgb(50, 50, 162);
+  color: whitesmoke;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.buttons input {
+  background-color: transparent;
+  border: none;
+  color: rgb(143, 140, 140);
+  font-weight: bold;
+}
+
+.buttons input:hover {
+  color: rgb(20, 20, 64);
+}
