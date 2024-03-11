@@ -9,6 +9,7 @@ body {
   background-color: rgb(126, 126, 224);
   display: grid;
   place-content: center;
+  height: 100vh;
 }
 
 main {
